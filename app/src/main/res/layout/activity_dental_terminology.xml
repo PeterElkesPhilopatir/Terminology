@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dental_terminology"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+
+
+    tools:context="com.example.peter.terminology.TerminologyActivity">
+
+    <FrameLayout
+        android:id="@+id/dentalSuffix"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/dentalSuffixListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true" -->
+        />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
